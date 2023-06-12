@@ -1,0 +1,76 @@
+name: Bug Report
+description: File a bug report
+title: "[BUG] "
+labels: ["bug"]
+assignees:
+  - tibi-extera
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Provide a clear and concise description of what the bug is.
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: A list of steps to follow to reproduce the bug.
+      placeholder: Provide a list of steps to follow to reproduce the bug.
+      value: "1. Press the button.
+              2. Do something else.
+              3. See the bug."
+    validations:
+      required: true
+  - type: textarea
+    id: what-was-expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: Provide a clear and concise description of what you expected to happen or not happen.
+      value: I expected that it would not blow up.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: "Screenshots and/or videos illustrating the bug."
+      placeholder: "Screenshots here"
+  - type: markdown
+    attributes:
+      value: "## Environment"
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      description: "What OS(es) do you encounter this bug on?"
+      placeholder: "Example: Windows 11 Pro"
+    validations:
+      required: true
+  - type: input
+    id: application
+    attributes:
+      label: Application version
+      description: "What version of the application you use when you see this bug?"
+      placeholder: "Example: 1.0.12"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser version
+      description: "What version of what browser do you use when you see this bug?"
+      placeholder: "Example: Edge 114.0.1823.43 (Official build) (64-bit)"
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: "Any additional information that might help with resolving the bug"
+      placeholder: "If there is anything else that is relevant, here is the place to report it."
+      value: "It only happens if I stand on my left leg."
+    validations:
+      required: false
