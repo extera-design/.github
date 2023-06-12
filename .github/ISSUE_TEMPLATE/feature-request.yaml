@@ -16,9 +16,9 @@ body:
     attributes:
       label: Acceptance criteria
       description: "List here what would make an implementation acceptable for this user story. Include everything you want done: functionality, documentation, localization, anything else."
-      placeholder: "- there is a new control
-                    - I can use the control for ...
-                    - The control validates its content to ..."
+      placeholder: "- there is a new control<br/>
+                    - I can use the control for ...<br/>
+                    - The control validates its content to ...<br/>"
     validations:
       required: true
   - type: textarea
