@@ -1,0 +1,14 @@
+---
+name: Technical debt
+about: Keep track of technical debt, allow it to be scheduled
+title: "[TD]"
+labels: ''
+assignees: ''
+
+---
+
+**TD description**
+Provide information on what the debt is about, why it is needed, and what are the consequences of ignoring it.
+
+**Proposed solution**
+If there is a proposed solution, describe it here. 
