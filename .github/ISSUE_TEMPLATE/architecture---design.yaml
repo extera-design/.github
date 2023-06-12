@@ -1,0 +1,17 @@
+name: Architecture & design
+description: Keep track of code design & architecture needs, allow it to be scheduled
+title: "[AD] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the architectural change or design change that needs to be defined.
+      placeholder: A new class is required becasue...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "**Note:** the output must to be a design document, to be attached to the issue."
+
