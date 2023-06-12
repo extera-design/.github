@@ -1,0 +1,26 @@
+---
+name: Feature request
+about: Suggest an idea for this project
+title: "[NEW]"
+labels: new feature
+assignees: ''
+
+---
+
+**“As a [persona], I [want to], [so that].”**
+Fill in the blanks. 
+
+**Acceptance criteria**
+List here what would make an implementation acceptable for this user story. Include everything you want done: functionality, documentation, localization, anything else.
+
+**Describe the use case for this feature**
+Why do you want this feature, what is the ultimate goal? Where do you expect to start? What do you expect to do? What is the expected result? Are there any possible error cases, and how would you like them handled?
+
+**Describe the solution you'd like**
+Here you get to suggest an implementation. Note that this is a suggestion. It provides no guarantee that the final implementation will match your suggestion.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
