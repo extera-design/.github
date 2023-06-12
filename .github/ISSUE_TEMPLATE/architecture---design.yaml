@@ -1,7 +1,6 @@
 name: Architecture & design
 description: Keep track of code design & architecture needs, allow it to be scheduled
 title: "[AD] "
-labels: ["bug"]
 body:
   - type: textarea
     id: description
