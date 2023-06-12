@@ -1,14 +1,20 @@
----
 name: Technical debt
-about: Keep track of technical debt, allow it to be scheduled
-title: "[TD]"
-labels: ''
-assignees: ''
-
----
-
-**TD description**
-Provide information on what the debt is about, why it is needed, and what are the consequences of ignoring it.
-
-**Proposed solution**
-If there is a proposed solution, describe it here. 
+description: Keep track of technical debt, allow it to be scheduled
+title: "[TD] "
+assignees:
+  - tibi-extera
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: TD description
+      description: Provide information on what the debt is about, why it is needed, and what are the consequences of ignoring it.
+      placeholder: If we don't take care of this, life as we know it will end.
+    validations:
+      required: true
+  - type: textarea
+    id: what-to-do
+    attributes:
+      label: Proposed solution
+      description: If there is a proposed solution, describe it here. 
+      placeholder: Luckily, I am smart enough to be able to tell you what to do.
