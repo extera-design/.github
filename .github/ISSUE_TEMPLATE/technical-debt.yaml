@@ -1,6 +1,8 @@
 name: Technical debt
 description: Keep track of technical debt, allow it to be scheduled
 title: "[TD] "
+labels: ["technical debt"]
+type: "Technical debt"
 assignees:
   - tibi-extera
 body:
